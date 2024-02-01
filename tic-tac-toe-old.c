@@ -66,8 +66,8 @@ int main()
 				// Check Win
 
 
-				if (turn = 'X') turn = 'O';
-                                else turn = 'X';
+				if (turn == 'X') turn = 'O';
+				else if (turn == 'O') turn = 'X';
 			}
 		}
 
